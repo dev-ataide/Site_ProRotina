@@ -18,6 +18,8 @@ header {
   justify-content: space-between;
   padding: 48px;
   position: fixed;
+  width: 100%;
+  background-color: #09090a;
 }
 
 button {
@@ -31,9 +33,9 @@ button {
   justify-content: center;
   gap: 12px;
   font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 125%;
+  font-weight: 400;
+  font-size: 10px;
+  margin-left: 25%;
 }
 
 #form-habits {
@@ -47,6 +49,10 @@ button {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 7px;
 }
 .habit {
   width: 64px;
@@ -55,12 +61,13 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .days {
   display: flex;
   gap: 48px;
-  margin-left: 32px;
+  margin-left: 64px;
 }
 
 .day {
